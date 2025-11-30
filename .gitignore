@@ -1,0 +1,42 @@
+Entornos Virtuales
+
+/venv/
+/env/
+/.venv/
+/.env
+
+Bases de datos
+
+*.sqlite3
+db.sqlite3
+db.sqlite3-journal
+
+Archivos compilados de Python
+
+*.pyc
+pycache/
+*.pyo
+
+Logs
+
+*.log
+logs/
+
+Archivos de IDE (VSCode, etc.)
+
+.vscode/
+.idea/
+
+Archivos de Django
+
+(No ignores 'static/' si pones tus CSS/JS ahí)
+
+(Sí ignora 'staticfiles/' que es donde se recolectan)
+
+/staticfiles/
+/media/
+
+Archivos de sistema operativo
+
+.DS_Store
+Thumbs.db
